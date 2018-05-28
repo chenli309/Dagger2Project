@@ -43,9 +43,33 @@
         android:layout_height="48dp"
         android:layout_marginTop="5dp"
         android:text="C"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_4"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_2"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_4"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="5dp"
+        android:text="D1"
+        app:layout_constraintBottom_toTopOf="@+id/btn_5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_3"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_5"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="5dp"
+        android:text="D2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_4"
         app:layout_constraintVertical_chainStyle="packed" />
 </android.support.constraint.ConstraintLayout>

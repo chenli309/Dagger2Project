@@ -29,6 +29,18 @@
         <activity
             android:name=".activity.CActivity"
             android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.DActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.D2Activity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".activity.EActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
